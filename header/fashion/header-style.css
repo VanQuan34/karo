@@ -1,0 +1,214 @@
+.fashion.element-header-layout1.header-sticky-mobile
+{
+    top: 0;
+    position: fixed !important;
+    -webkit-animation: myStickym 1.3s;
+    -moz-animation: myStickym 1.3s;
+    animation: myStickym 1.3s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
+    backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    -moz-transition: transform 0.5s ease-in-out;
+    -webkit-box-shadow: 0px 4px 13px -3px #808080;
+    -moz-box-shadow: 0px 4px 13px -3px #808080;
+    -ms-box-shadow: 0px 4px 13px -3px #808080;
+    -o-box-shadow: 0px 4px 13px -3px #808080;
+    box-shadow: 0px 4px 13px -3px #808080;
+    list-style: none;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #fff;
+}
+
+.fashion.admin-bar .element-header-layout1.header-sticky-mobile {
+     top: 31px;
+     z-index: 999
+}
+.fashion.element-header-layout1 #mega_main_menu.primary > .menu_holder > .menu_inner > ul > li.current-menu-ancestor > .item_link,
+.fashion.element-header-layout1 #mega_main_menu.primary > .menu_holder > .menu_inner > ul > li > .item_link:hover {
+    background: transparent;
+}
+
+.page .fashion.element-header-layout1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.page .fashion.element-header-layout1 .header-content {
+    padding: 35px 100px 35px;
+}
+.fashion.element-header-layout1 .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding: 5px 100px;
+}
+.fashion.element-header-layout1.header-sticky-mobile .header-content {
+    padding: 5px 5.2%;
+}
+.fashion.element-header-layout1 #mega_main_menu.primary > .menu_holder > .menu_inner > ul > li > .mega_dropdown{
+    padding: 10px;
+}
+.fashion.element-header-layout1 .nav-right{
+    display: flex;
+}
+.fashion.element-header-layout1 .ftc-search-product .ftc-search .search-button:before {
+    display: none;
+}
+.fashion.element-header-layout1 .ftc-shop-cart .ftc-cart-tini:before {
+    display: none;
+}
+.fashion.element-header-layout1 .header-content .ftc-shop-cart .ftc-cart-tini .cart-total .cart-ico:before {
+    content: "(";
+}
+.fashion.element-header-layout1 .header-content .ftc-shop-cart .ftc-cart-tini .cart-total .cart-ico:after {
+    content: ")";
+}
+.fashion.element-header-layout1 .header-content .ftc-shop-cart .ftc-cart-tini .cart-total {
+    top: 0;
+    right: 0;
+    left: 0;
+    position: relative;
+    font-size: 14px;
+    line-height: 31px;
+    color: #000;
+}
+.fashion.element-header-layout1 .ftc-sb-account .ftc_login a.my-account:before{
+    display: none;
+}
+.fashion .element-header-layout1 .ftc-search-product .ftc-search .search-button {
+    margin-top: 0;
+    top: 0;
+    font-size: 11px;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    font-weight: 400;
+    color: #000;
+    text-transform: uppercase;
+    line-height: 32px;
+}
+.fashion.element-header-layout1 .ftc-search-product {
+    margin-left: 0;
+    float: none;
+}
+.fashion.element-header-layout1 .ftc-sb-account {
+    margin-right: 20px;
+    float: none;
+}
+.fashion.element-header-layout1 .ftc-sb-account .ftc_login > a {
+    color: #000;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+.fashion.element-header-layout1 #mega_main_menu.primary > .menu_holder > .menu_inner > ul > li > .item_link .link_text{
+    text-transform: uppercase;
+}
+.fashion.element-header-layout1 span.text-cart {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+.fashion.header-ftc.element-header-layout1 #mega_main_menu.primary > .menu_holder > .menu_inner > ul > li:hover > .item_link{
+    background-color: transparent;
+}
+.fashion.element-header-layout1 .header-content .container > div.logo-wrapper.is-desktop {
+    margin: 0;
+}
+.fashion.element-header-layout1 .header-content .container > div.header-nav-menu {
+    float: none;
+}   
+.fashion.element-header-layout1 #mega_main_menu.primary > .menu_holder > .menu_inner > ul > li.current-menu-ancestor > .item_link * {
+    color: #000;
+}
+.fashion.element-header-layout1 #mega_main_menu.primary > .menu_holder > .menu_inner > ul > li > .item_link * {
+    font-size: 20px;
+}
+.fashion.element-header-layout1 .ftc-sb-account .ftc_login > a span, .fashion .element-header-layout1 span.text-cart,.fashion .element-header-layout1 span.cart-ico, .fashion .element-header-layout1 .ftc-search-product .ftc-search .search-button {
+    font-size: 15px;
+}
+.fashion.element-header-layout1 .ftc-search-product .ftc-search .search-button, .fashion .element-header-layout1 .header-content .ftc-shop-cart .ftc-cart-tini .cart-total {
+    line-height: unset;
+}
+.fashion.header-ftc.element-header-layout1 .ftc_search_ajax.loading:after {
+    top: 45px;
+}
+.fashion.element-header-layout1 #mega_main_menu.primary ul li .mega_dropdown > li.sub-style > .item_link .link_text {
+    font-weight: normal;
+    font-size: 16px;
+}
+        
+
+
+
+
+
+/**Responsive*/         
+@media screen and (max-width: 1199px) {
+    
+    .fashion .element-header-layout1 #mega_main_menu li.multicolumn_dropdown.blog-menu-s > .mega_dropdown {
+    width: 580px !important;
+}
+.fashion .element-header-layout1 {
+    position: relative;
+}
+    }
+
+    @media screen and (max-width: 1024px) {
+    .fashion .element-header-layout1 .header-content {
+    padding: 20px 5.2%;
+}
+}
+@media screen and (max-width: 991px) {
+    .home.fashion .element-header-layout1 {
+    position: relative;
+}
+    .home.fashion .element-header-layout1 .header-content {
+    padding: 5px 15px;
+}
+.fashion .element-header-layout1.header-sticky-mobile .header-content {
+    padding: 5px 5.2%;
+}
+.fashion.admin-bar .element-header-layout1.header-sticky-mobile {
+    top: 45px;
+}
+.fashion .element-header-layout1 .header-content .ftc-shop-cart .ftc-cart-tini .cart-total .cart-ico {
+    position: relative;
+    top: -14px;
+    left: -5px;
+}
+    .fashion .element-header-layout1 .header-content .ftc-shop-cart .ftc-cart-tini .cart-total:before {
+    font-size: 18px;
+    content: '\f07a';
+    font-family: fontaweSome;
+}
+    .fashion .element-header-layout1 .ftc-sb-account,.fashion .element-header-layout1 .header-content .ftc-shop-cart .ftc-cart-tini .cart-total .text-cart {
+    display: none;
+}
+    .fashion .element-header-layout1 .mobile-button .fa-bars:before {
+    color: #000;
+}
+.fashion .element-header-layout1 .header-content {
+    padding: 25px 0;
+}
+.fashion .element-header-layout1 .header-content {
+    padding: 5px 15px;
+}
+.fashion .element-header-layout1 .header-content .logo-wrapper.is-mobile img {
+    max-width: 125px;
+}
+.fashion .element-header-layout1 .logo-wrapper.is-mobile {
+    transform: none;
+}
+}
